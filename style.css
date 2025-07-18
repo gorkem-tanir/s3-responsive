@@ -124,11 +124,11 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;        
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-evenly;
   }  
+  
+  nav a {
+    text-align: center;
+    width: 25%;
+  }
   
 }
