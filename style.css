@@ -113,6 +113,22 @@ nav a:hover {
     border-radius: 0;
     height: 70vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;        
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }  
   
 }
